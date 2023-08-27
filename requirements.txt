@@ -1,0 +1,2 @@
+colorama==0.4.6
+pywifi==1.1.12
