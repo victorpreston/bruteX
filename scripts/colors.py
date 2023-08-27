@@ -1,21 +1,28 @@
 import os
+import random
 
 try:
     from colorama import Style, Fore
-
 except ModuleNotFoundError:
     os.system("pip install colorama")
-import random
 
-all_col= [Style.BRIGHT+Fore.RED,Style.BRIGHT+Fore.CYAN,Style.BRIGHT+Fore.LIGHTCYAN_EX, Style.BRIGHT+Fore.LIGHTBLUE_EX, Style.BRIGHT+Fore.LIGHTCYAN_EX,Style.BRIGHT+Fore.LIGHTMAGENTA_EX,Style.BRIGHT+Fore.LIGHTYELLOW_EX]
+all_colors = [
+    Style.BRIGHT + Fore.RED,
+    Style.BRIGHT + Fore.CYAN,
+    Style.BRIGHT + Fore.LIGHTCYAN_EX,
+    Style.BRIGHT + Fore.LIGHTBLUE_EX,
+    Style.BRIGHT + Fore.LIGHTCYAN_EX,
+    Style.BRIGHT + Fore.LIGHTMAGENTA_EX,
+    Style.BRIGHT + Fore.LIGHTYELLOW_EX,
+]
 
-ran = random.choice(all_col)
+random_color = random.choice(all_colors)
 
-lg = Style.BRIGHT+Fore.LIGHTGREEN_EX
-g = Style.BRIGHT+Fore.GREEN
-lc = Style.BRIGHT+Fore.LIGHTCYAN_EX
-c = Style.BRIGHT+Fore.CYAN
-ly =  Style.BRIGHT+Fore.LIGHTYELLOW_EX
-y = Style.BRIGHT+Fore.YELLOW
-r = Style.BRIGHT+Fore.RED
-lr = Style.BRIGHT+Fore.LIGHTRED_EX
+light_green = Style.BRIGHT + Fore.LIGHTGREEN_EX
+green = Style.BRIGHT + Fore.GREEN
+light_cyan = Style.BRIGHT + Fore.LIGHTCYAN_EX
+cyan = Style.BRIGHT + Fore.CYAN
+light_yellow = Style.BRIGHT + Fore.LIGHTYELLOW_EX
+yellow = Style.BRIGHT + Fore.YELLOW
+red = Style.BRIGHT + Fore.RED
+light_red = Style.BRIGHT + Fore.LIGHTRED_EX
