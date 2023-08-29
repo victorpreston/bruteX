@@ -44,4 +44,4 @@ flowchart LR
 
 ## Disclaimer
 
-Please note that the projects in HackLab are intended for ethical purposes only. Ensure that you adhere to ethical guidelines, applicable laws, and obtain proper permissions before applying any techniques or tools demonstrated in the projects. The creator of HackLab is not responsible for any misuse or illegal activities conducted using the information or code provided.
+This project is intended for ethical purposes only. Ensure that you adhere to ethical guidelines. The creator of HackLab is not responsible for any misuse or illegal activities conducted using the information or code provided.
